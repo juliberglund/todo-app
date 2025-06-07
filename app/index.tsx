@@ -33,7 +33,7 @@ export default function Home() {
   const [todos, setTodos] = useState<TodoType[]>([]);
   const [todoText, setTodoText] = useState<string>("");
   const [searchQuery, setSearchQuery] = useState<string>("");
-  const [oldTodos, setOldTodos] = useState<ToDoType[]>([]);
+  const [oldTodos, setOldTodos] = useState<TodoType[]>([]);
   useEffect(() => {
     const getTodos = async () => {
       try {
